@@ -516,7 +516,7 @@ main {
 }
 
 .skills-section {
-  width: 30%;
+  width: 35%;
 }
 
 .activity-section {
@@ -531,8 +531,8 @@ main {
 
 .skills-item,
 .activity-item {
-  margin: 15px;
-  padding: 15px;
+  margin: 10px;
+  padding: 10px;
   border-radius:15px;
   background:#cecece;
 }
@@ -787,7 +787,7 @@ main {
     --fs-4: 18px;
     --fs-6: 15px;
     --fs-7: 15px;
-    --fs-8: 12px;
+    --fs-8: 15px;
 
 }
 
@@ -886,7 +886,7 @@ main {
 
   .navbar-list { gap: 20px; }
 
-  .navbar-link { --fs-8: 14px; }
+  .navbar-link { --fs-8: 15px; }
 
 
 
@@ -1323,7 +1323,7 @@ figure.project-img {
   --fs-5: 15px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 11px;
+  --fs-8: 12px;
 
   /* font-weight */
   --fw-300: 300;
