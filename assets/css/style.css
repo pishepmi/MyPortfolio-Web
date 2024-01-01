@@ -510,39 +510,26 @@ main {
  * skills 
  */
 
- .skill {
+ .skills-list {
   display: flex;
-  justify-content: space-between;
-}
-
-.skills-section {
-  width: 35%;
-}
-
-.activity-section {
-  width: 70%;
-}
-
-.skills-list,
-.activity-list {
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
-  padding:0;
+  padding:5px;
+  
 }
 
-.skills-item,
-.activity-item {
-  margin: 10px;
+.skills-content-box {
   padding: 10px;
-  border-radius:15px;
+  text-align: center;
   background:#cecece;
+  border-radius:10px;
+  margin:5px
 }
 
-.activity-item{text-align:justify;}
-
-.h5 {
+.skills-item-title {
   margin: 0;
 }
-
 
 
 /*-----------------------------------*\
