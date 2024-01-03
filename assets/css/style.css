@@ -11,7 +11,7 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+li { list-style: none; text-align: justify; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -363,7 +363,7 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 15px; text-align: justify;}
 
 
 
@@ -532,6 +532,7 @@ main {
 }
 
 
+
 /*-----------------------------------*\
   #Project
 \*-----------------------------------*/
@@ -671,7 +672,7 @@ main {
 .project-item > a:hover img { transform: scale(1.1); }
 
 .project-title,
-.project-category { margin-left: 10px; }
+.project-category { margin-left: 5px;margin-right: 5px; }
 
 .project-title {
   color: hsl(0deg 0% 0%);
@@ -774,7 +775,7 @@ main {
     --fs-4: 18px;
     --fs-6: 15px;
     --fs-7: 15px;
-    --fs-8: 15px;
+    --fs-8: 12px;
 
 }
 
@@ -873,7 +874,7 @@ main {
 
   .navbar-list { gap: 20px; }
 
-  .navbar-link { --fs-8: 15px; }
+  .navbar-link { --fs-8: 14px; }
 
 
 
@@ -1310,7 +1311,7 @@ figure.project-img {
   --fs-5: 15px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 12px;
+  --fs-8: 11px;
 
   /* font-weight */
   --fw-300: 300;
